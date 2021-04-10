@@ -1,4 +1,11 @@
 import React from "react";
+import "../../assets/css/style.css";
+import GitHubLogo from "../../assets/images/GitHub.png";
+import LinkedInLogo from "../../assets/images/LinkedIn.png";
+import FacebookLogo from "../../assets/images/facebook.png";
+import ContactCard from "../../assets/images/contact_card.png";
+import HeadShot from "../../assets/images/head.png";
+
 
 
 export default function Links() {
@@ -6,18 +13,18 @@ export default function Links() {
         <div className="links">
             <h3>Links</h3>
             <a href="https://chad1281.github.io/chad_cook/.">
-                <img className="imgLinks" title="GitHub Logo" src="../assets/images/GitHub.png" alt="GitHub logo" />
+                <img className="imgLinks" title="GitHub Logo" src={GitHubLogo} alt="GitHub logo" />
             </a>
             <a href="https://www.linkedin.com/in/chad-cook-80413095/">
-                <img className="imgLinks" title="Linkedin Logo" src="../assets/images/Github.png" alt="LinkedIn Logo" />
+                <img className="imgLinks" title="Linkedin Logo" src={LinkedInLogo} alt="LinkedIn Logo" />
             </a>
             <a href="https://www.facebook.com/chad.cook.3760">
-                <img className="imgLinks" title="Facebook Logo" src="../assets/images/facebook.png" alt="facebook logo" />
+                <img className="imgLinks" title="Facebook Logo" src={FacebookLogo} alt="facebook logo" />
             </a>  
             <a href="./assets/Chad Cook Card.vcf">
-                <img className="imgLinks" title="Contact Card" src="../assets/images/contact_card.png" alt="Contact Card" /> 
+                <img className="imgLinks" title="Contact Card" src={ContactCard} alt="Contact Card" /> 
             </a>  
-            <img id="headshot" src="../assets/images/head.png" alt="headshot of Chad Cook" />
+            <img id="headshot" src={HeadShot} alt="headshot of Chad Cook" />
         </div>
     )
 }
