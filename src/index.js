@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from "./components/Header";
 import Links from "./components/Links";
+import About from "./components/About";
 
 ReactDOM.render(
   <>
     <Header />
     <Links />
+    <About />
   </>
 );
 
