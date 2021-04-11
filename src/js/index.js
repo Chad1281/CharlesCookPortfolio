@@ -1,3 +1,7 @@
+import React from "react";
+import $ from "jquery";
+import projectLinks from "../projectLinks.json";
+import "../assets/css/style.css";
 
 console.log(projectLinks);
 projectLinks.forEach(function(element) {
