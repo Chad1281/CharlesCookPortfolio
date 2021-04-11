@@ -12,7 +12,7 @@ export default function Links() {
     return (
         <div className="links">
             <h3>Links</h3>
-            <a href="https://chad1281.github.io/chad_cook/.">
+            <a href="https://github.com/Chad1281">
                 <img className="imgLinks" title="GitHub Logo" src={GitHubLogo} alt="GitHub logo" />
             </a>
             <a href="https://www.linkedin.com/in/chad-cook-80413095/">
