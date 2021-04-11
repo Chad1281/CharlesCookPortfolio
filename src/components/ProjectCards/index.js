@@ -3,12 +3,6 @@ import $ from "jquery";
 import { Img } from "react-image";
 import "../../assets/css/style.css";
 import projectLinks from "../../assets/data/projectLinks";
-import Monnaie from "../../assets/images/monnaie.png";
-import Served from "../../assets/images/served.png";
-import Employee from "../../assets/images/employee.png";
-import Burger from "../../assets/images/burger.png";
-import StarWars from "../../assets/images/star-wars.png";
-import Budget from "../../assets/images/budget.png";
 import GitHub from "../../assets/images/GitHub.png";
 
 const ProjectLinks = JSON.stringify(projectLinks);
