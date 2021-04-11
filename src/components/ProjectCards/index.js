@@ -1,13 +1,10 @@
 import React from "react";
-import $ from "jquery";
 import { Img } from "react-image";
 import "../../assets/css/style.css";
 import projectLinks from "../../assets/data/projectLinks";
 import GitHub from "../../assets/images/GitHub.png";
 
-const ProjectLinks = JSON.stringify(projectLinks);
-
-console.log(ProjectLinks)
+console.log()
 export default function ProjectCards() {
     return (        
         <div id="projects" className="cardContainer">
@@ -17,10 +14,10 @@ export default function ProjectCards() {
                 {projectLinks.map(function(link) {
                     console.log(link.image);
                     return (
-                        <a href={link.url}>
+                        <a href={link.url} target="_blank">
                             <div className="card cyan-theme">                            
                                 <Img src={link.image} />
-                                <a className="card-gh" href={link.github}>
+                                <a className="card-gh" href={link.github} target="_blank">
                                     <img className="card-gh-img" src={GitHub} alt="GitHub Logo" />
                                 </a>
                                 <div className="card-title">{link.title}</div>
@@ -33,70 +30,3 @@ export default function ProjectCards() {
         </div>
     )    
 }
-
-// export function CardsWrapper({custId, props}) {
-//     return (
-        
-//     )
-// }
-
-// export function Card({custClass, props}) {
-//     console.log(projectLinks);
-//     return (
-        
-//     )
-// }
-
-// export function CardImg() {
-//     return (
-//         <>
-//         {projectLinks.map(function(link) {
-//             return(
-//                <img src={link.image} /> 
-//             )            
-//         })}
-//         </>
-        
-//     )
-// }
-
-// export function CardUrl(props) {
-//     return (
-//         <>
-//         {projectLinks.map(function(link) {
-//             return (
-//                <a href={link.url}>{props.children}</a> 
-//             )
-//         })}
-//         </>        
-//     )
-// }
-
-// export function CardTitle() {
-//     return (
-//         <>
-//         {projectLinks.map(function(link) {
-//             return (
-//                 <div class="card-title">{link.title}</div>
-//             )
-//         })}
-//         </>
-//     )    
-// }
-
-// export function CardDesc() {
-//     return (
-//         <>
-//         {projectLinks.map(function(link) {
-//             return (
-//                 <div class="card-desc">{link.description}</div>
-//             )
-//         })}
-//         </>        
-//     )
-// }
-
-
-
-
-
