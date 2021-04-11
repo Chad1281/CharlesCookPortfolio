@@ -7,6 +7,7 @@ import About from "./components/About";
 import ProjectCards from "./components/ProjectCards";
 import ResumeCard from "./components/ResumeCard";
 import Footer from "./components/Footer";
+import ContactCard from "./components/ContactCard";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <ProjectCards />
       <ResumeCard />
+      <ContactCard />
       <Footer />
     </>
   );

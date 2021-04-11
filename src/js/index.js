@@ -1,27 +1,7 @@
 import React from "react";
 import $ from "jquery";
-import projectLinks from "../projectLinks.json";
 import "../assets/css/style.css";
-
-console.log(projectLinks);
-projectLinks.forEach(function(element) {
-    console.log(element);
-    var cardEl = $("<div>").addClass("card cyan-theme");
-    var cardImgEl = $("<img>").addClass("card-img").attr("src", element.image);
-    var cardUrlEl = $("<a>").addClass("card-url").attr("href", element.url);
-    var cardGhEl = $("<a>").addClass("card-gh").attr("href", element.github);
-    var cardGhImgEl = $("<img>").addClass("card-gh-img").attr("src", "./assets/images/GitHub.png");
-    var cardTitleEl = $("<div>").addClass("card-title").text(element.title);
-    var cardDescEl = $("<div>").addClass("card-desc").text(element.description);
-
-    $("#projectCards").append(cardEl);
-    $(cardEl).append(cardUrlEl);
-    $(cardUrlEl).append(cardImgEl);
-    $(cardUrlEl).append(cardGhEl);
-    $(cardGhEl).append(cardGhImgEl);
-    $(cardUrlEl).append(cardTitleEl);
-    $(cardUrlEl).append(cardDescEl);
-})
+import DownArrow from "../assets/images/down.png"
 
 setTimeout(printText, 1000);
 
@@ -49,7 +29,7 @@ function printText() {
 
     function appendDown() {        
         var downArrow = $("<a>").attr("href", "#projects");
-        var downArrowImg = $("<img>").attr("src", "./assets/images/down.png");        
+        var downArrowImg = $("<img>").attr("src", DownArrow);        
 
         $("#down").append(downArrow);
         $(downArrow).append(downArrowImg);
