@@ -4,6 +4,7 @@ import GitHubLogo from "../../assets/images/GitHub.png";
 import LinkedInLogo from "../../assets/images/LinkedIn.png";
 import FacebookLogo from "../../assets/images/facebook.png";
 import ContactCard from "../../assets/images/contact_card.png";
+import ContactCardVcf from "../../assets/ChadCookCard.vcf";
 import HeadShot from "../../assets/images/head.png";
 
 export default function Links() {
@@ -19,7 +20,7 @@ export default function Links() {
             <a href="https://www.facebook.com/chad.cook.3760" target="_blank">
                 <img className="imgLinks" title="Facebook Logo" src={FacebookLogo} alt="facebook logo" />
             </a>  
-            <a href="./assets/Chad Cook Card.vcf" target="_blank">
+            <a href={ContactCardVcf} target="_blank">
                 <img className="imgLinks" title="Contact Card" src={ContactCard} alt="Contact Card" /> 
             </a>  
             <img id="headshot" src={HeadShot} alt="headshot of Chad Cook" />
