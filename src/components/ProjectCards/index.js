@@ -26,8 +26,8 @@ export default function ProjectCards() {
                         <a href={link.url}>
                             <div className="card cyan-theme">                            
                                 <Img src={link.image} />
-                                <a href={link.github}>
-                                    <img src={GitHub} />
+                                <a className="card-gh" href={link.github}>
+                                    <img className="card-gh-img" src={GitHub} alt="GitHub Logo" />
                                 </a>
                                 <div className="card-title">{link.title}</div>
                                 <div className="card-desc">{link.description}</div>

@@ -1,6 +1,3 @@
-import React from "react";
-import Monnaie from "../images/monnaie.png";
-
 const projectLinks = [
     {
         image: "https://github.com/Chad1281/charles-cook-portfolio/blob/main/src/assets/images/monnaie.png",
