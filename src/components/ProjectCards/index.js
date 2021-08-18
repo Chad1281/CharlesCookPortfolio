@@ -14,10 +14,10 @@ export default function ProjectCards() {
                 {projectLinks.map(function(link) {
                     console.log(link.image);
                     return (
-                        <a href={link.url} target="_blank">
+                        <a href={link.url} rel="noreferrer" target="_blank">
                             <div className="card cyan-theme">                            
-                                <Img src={link.image} />
-                                <a className="card-gh" href={link.github} target="_blank">
+                                <Img className="card-img" src={link.image} />
+                                <a className="card-gh" href={link.github} rel="noreferrer" target="_blank">
                                     <img className="card-gh-img" src={GitHub} alt="GitHub Logo" />
                                 </a>
                                 <div className="card-title">{link.title}</div>

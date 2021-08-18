@@ -6,9 +6,9 @@ export default function ContactCard() {
         <div id="contact" class="card magenta-theme">
             <div class="card-title">Contact Me</div>
             <div class="card-desc">
-                Chad Cook <br />
-                512-644-3039 <br />
-                charles.cook28@gmail.com
+                <p>Chad Cook</p> 
+                <p><a href="tel:512-644-3039" title="Cell Phone Number">512-644-3039</a></p> 
+                <address><a href="mailto:charles.cook28@gmail.com" title="Email Address">charles.cook28@gmail.com</a></address>
             </div>
         </div>
     )

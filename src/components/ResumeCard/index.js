@@ -7,7 +7,7 @@ export default function ResumeCard() {
     return (
         <div id="resume" className="card gray-theme">
             <div className="card-title">Resume</div>
-            <a href={ResumePdf}>
+            <a href={ResumePdf} rel="noreferrer" target="_blank">
                 <img id="resumeImg" src={Resume} alt="Resume" />
             </a>            
         </div>

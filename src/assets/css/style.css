@@ -39,6 +39,11 @@ nav a {
     border-radius: 0px 0px 12px 6px;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(255, 238, 255);
+}
+
 .spacer {
     width: 100vw;
     height: 1px;
@@ -146,6 +151,10 @@ h1 {
     width: 55vw;
     max-width: 75vw;
     height: auto;
+}
+
+.card p {
+    margin: 0;
 }
 
 .cyan-theme {
