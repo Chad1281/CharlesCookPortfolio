@@ -1,5 +1,7 @@
 # Chad Cook Portfolio
 
+![Image of the starting page]()
+
 ## Introduction
 In my portfolio you have quick easy access to view some of my projects, my resume, contact info, and find links to my profile on several social media platforms.
 
