@@ -8,6 +8,7 @@ In my portfolio you have quick easy access to view some of my projects, my resum
 ##Technologies
 My portfolio uses the following technologies:
 * React
+* Firebase
 * JavaScript
 * jQuery
 * HTML5
