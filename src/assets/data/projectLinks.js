@@ -46,7 +46,7 @@ const projectLinks = [
     }, {
         image: Budget,
         url: "https://chad-online-offline-budget.herokuapp.com/",
-        github: "https://github.com/Chad1281/online-offline_budget_tracker",
+        github: "https://github.com/Chad1281/OnlineOfflineBudgetTracker",
         title: "Online Offline Budget Tracker",
         description: "Rather you have an internet connection or not the online/offline budget tracker will let you add deposits and purhases to so you always know how much money you have to spend."
     },
