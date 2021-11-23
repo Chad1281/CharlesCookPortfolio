@@ -15,8 +15,8 @@ const projectLinks = [
         description: "Quickly get auto & home insurance quotes on this website. Send an agent a contact request or contact the agent directly. Access carriers information for billing, service, or claims on the Carriers page."
     }, {
         image: Monnaie,
-        url: "https://salty-forest-71574.herokuapp.com/",
-        github: "https://github.com/kccho2254/monnaie",
+        url: "https://monnaie-v2.herokuapp.com/landing.html",
+        github: "https://github.com/charlispilecki/Monnaie",
         title: "Monnaie Wedding Planner",
         description: "Monnaie is an app to help newly engaged couples plan the perfect wedding. Each user will be to save and keep track of their budget and compare their planned cost with actual cost. They can break their budget down into categories and add items to each category. They are also able to schedule task with a due date and mark the task complete as they are completed."
     }, {

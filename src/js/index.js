@@ -6,7 +6,7 @@ setTimeout(printText, 1000);
 
 function printText() {
     const myName = ["H", "i", ",", " ", "m", "y", " ",  "n", "a", "m", "e", " ",  "i", "s", " ", "C", "h", "a", "d", "."];
-    const myDesc = "I'm a full stack developer and recent graduate of the Coding Boot Camp at UT Austin. I began coding as a hobby while I was still in high school in the 90's but started a different path after graduation. Over the years I've reintroduced myself to coding and have done a little bit of coding as a hobby here and there. I really enjoy problem solving and can spend all day trying to solve a problem or problems without losing any interest. Javascript gives me a chance to use logic to see what I can accomplish with code. Now 20 years after building a career in the beverage industry I've decided to make a career change and here we are."
+    const myDesc = "I'm a Full Stack React Developer and recent graduate of the Coding Boot Camp at UT Austin. After nearly 20 years of building a career in the soda industry, I’ve reinvested in myself and chose a new career path in web development. My coding language is JavaScript with React on the front end and Node Express on the back end. I’m able to write CRUD operations in both SQL and NoSQL databases such as MySQL, MongoDB, and Google Firestore. I’m currently seeking freelance work to build websites for small businesses that need more functionality than what they get from drag and drop website builders, want a responsive web page that looks great on all devices, and is Search Engine Optimized to come at the top of Google search results."
     
     var i = 0;
 
